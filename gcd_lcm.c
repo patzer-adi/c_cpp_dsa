@@ -15,8 +15,8 @@ int main()
     }
     else
     {
-        n = n2;
-        d = n1;
+        n = n1;
+        d = n2;
     }
     rem = n/d;
     while(rem != 0)
