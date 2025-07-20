@@ -18,7 +18,7 @@ int main()
         n = n1;
         d = n2;
     }
-    rem = n/d;
+    rem = n%d;
     while(rem != 0)
     {
     n = d;
