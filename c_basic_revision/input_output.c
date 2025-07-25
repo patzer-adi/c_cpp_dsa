@@ -2,9 +2,9 @@
 
 int main()
 {
-    int n;
+    int n1,n2;
     printf("Enter an integer number:");
-    scanf("%d",&n);
-    printf("\nYour input was:%d\n",n);
+    scanf("%d %d",&n1,&n2);
+    printf("\nYour input was:%d\t%d\n",n1,n2);
     return 0;
 }
