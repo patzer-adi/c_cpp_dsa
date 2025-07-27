@@ -4,7 +4,7 @@ int main()
 {
     float n1,n2,ansf;
     int ansi;
-    printf("Enter a number:\n");
+    printf("Enter two numbers:\n");
     scanf("%f %f",&n1,&n2);
     ansi = n1/n2;
     printf("Answer: n1/n2: %d\n",ansi);
