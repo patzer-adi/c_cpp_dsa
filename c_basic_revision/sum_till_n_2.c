@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// consant time complexity O(1)
 int main()
 {
     int n,sum;
