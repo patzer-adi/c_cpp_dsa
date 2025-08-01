@@ -6,22 +6,19 @@ int main()
     printf("Enter marks of English\n");
     scanf("%d",&day);
     if(day >= 1)
-        printf("Day is Sunday.");
+        printf("Day is Sunday.\n");
     else if(day >= 2)
-        printf("Day is Monday.");
+        printf("Day is Monday.\n");
     else if(day >= 3)
-        printf("Day is Tuesday.");
+        printf("Day is Tuesday.\n");
     else if(day >= 4)
-        printf("Day is Wednesday.");
+        printf("Day is Wednesday.\n");
     else if(day >= 5)
-        printf("Day is Thursday.");
+        printf("Day is Thursday.\n");
     else if(day >= 6)
-        printf("Day is Friday.");
+        printf("Day is Friday.\n");
     else if(day >= 7)
-        printf("Day is Saturday");
+        printf("Day is Saturday\n");
     else
-        printf("Invaid.")
-
-    }
-    return 0;
+        printf("Invaid.\n")
 }
