@@ -2,7 +2,7 @@
 
 int main()
 {
-    int month, yr;
+    int month, year;
     printf("Enter month number:\n");
     scanf("%d",&month);
     if(month != 2)
@@ -13,8 +13,8 @@ int main()
     else
     {
         printf("Enter year since february:\n");
-        scanf("%d",&yr);
-        if((yr % 400 == 0) || (yr % 100 != 0 && yr % 4 ==0))
+        scanf("%d",&year);
+        if((year % 400 == 0) || (year % 100 != 0 && year % 4 ==0))
             printf("Day in Month %d  are 29 .\n",month);
         else
             printf("Day in Month %d  are 28 .\n",month);
