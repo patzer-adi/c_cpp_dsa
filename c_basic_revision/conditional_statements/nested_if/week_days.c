@@ -3,7 +3,7 @@
 int main()
 {
     int day;
-    printf("Enter marks of English\n");
+    printf("Enter day number (1-7):\n");
     scanf("%d",&day);
     if(day == 1)
         printf("Day is Sunday.\n");
