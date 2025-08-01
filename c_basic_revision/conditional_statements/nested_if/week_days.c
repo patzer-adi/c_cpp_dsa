@@ -20,5 +20,8 @@ int main()
     else if(day >= 7)
         printf("Day is Saturday\n");
     else
-        printf("Invaid.\n")
+        printf("Invaid.\n");
+
+    return 0;
+
 }
