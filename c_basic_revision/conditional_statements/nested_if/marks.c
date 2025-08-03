@@ -2,8 +2,8 @@
 
 int main()
 {
-    int s1,s2,s3,s4,s5,total;
-    float per;
+    int s1,s2,s3,s4,s5;
+    float total, per;
     char grade;
     printf("Enter marks of English\n");
     scanf("%d",&s1);
@@ -16,9 +16,9 @@ int main()
     printf("Enter marks of Geography\n");
     scanf("%d",&s5);
     total = s1 + s2 + s3 + s4 + s5;
-    printf("total:%d\n",total);
+    printf("total:%f\n",total);
 
-    if(total > 500) { printf("Wrong marks as input\n"); return ;}
+    if(total > 500) { printf("Wrong marks as input\n"); return 0 ;}
     else
     {
     per = (total / 5);
