@@ -1,5 +1,3 @@
-// check this as well 
-
 #include<stdio.h>
 
 int main()
