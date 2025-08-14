@@ -1,6 +1,12 @@
 #include<stdio.h>
 // pattern
 /*
+                *
+             *  *
+          *  *  *
+       *  *  *  *
+    *  *  *  *  *
+ *  *  *  *  *  *
 
 */
 
@@ -9,11 +15,15 @@ void run()
     int m,n,i,j,k;
     printf("Enter n:\n");
     scanf("%d",&n);
-    for(i = n; i > 0; i--)
+    for(i = 0; i <= n; ++i)
     {
-        for(j = i ; j > 0; j++)
+        for(int k = 0; k < n - i; k++)
         {
-        printf("*\t");
+            printf("   ");
+        }
+        for(j = 0 ; j <= i; ++j)
+        {
+        printf(" * ");
         }
         printf("\n");
     }
