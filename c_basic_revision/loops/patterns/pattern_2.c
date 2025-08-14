@@ -18,13 +18,13 @@ void run()
         for(j = i + 1; j < n; j++)
         {
 
-            for(k = j +1; j < n; j++)
+            for(k = j +1; k < n; k++)
             {
-            printf("%d %d %d\t",i,j,k);
+            printf("%d %d %d\n",i,j,k);
             }
 
         }
-        printf("\n");
+        printf("\t");
     }
     return;
 }
