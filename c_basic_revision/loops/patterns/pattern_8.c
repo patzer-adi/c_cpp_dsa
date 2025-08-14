@@ -2,7 +2,10 @@
 // pattern
 /*
 pyramid pattern
- *
+   *
+  ***
+ *****
+*******
  */
 
 void run()
