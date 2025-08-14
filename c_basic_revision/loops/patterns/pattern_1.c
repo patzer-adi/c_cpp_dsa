@@ -1,6 +1,5 @@
 #include<stdio.h>
 
-#include<stdio.h>
 //pattern columns are constant
 /*
 0 1     0 2     0 3
