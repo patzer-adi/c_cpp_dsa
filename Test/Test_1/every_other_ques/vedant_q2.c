@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main() {
-    int n;
+void run()
+{
+        int n;
     printf("Enter a number: ");
     scanf("%d", &n);
 
@@ -12,5 +13,11 @@ int main() {
     }
 
     printf("\n");
+    return;
+}
+
+int main() {
+
+    run();
     return 0;
 }
