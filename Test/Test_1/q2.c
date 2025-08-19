@@ -11,13 +11,17 @@ void run()
 
     int i = n + 1;
     do {
-        if (i % m == 0) {
+        if (m % i == 0) {
             printf("First number greater than %d divisible by %d is: %d\n", n, m, i);
             break;
         }
+        else
+        {
+            printf("%d is not divisble...\n",i);
+        }
         i++;
     }
-    while(i % m != 0);
+    while(1);
     return;
 }
 
