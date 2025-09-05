@@ -1,0 +1,17 @@
+Linear Search Algo
+
+Question: Given an Array A[] of n elements, search for the given element x in A[]
+
+Algo:
+
+Search(A[], n, x)
+{
+
+for(i = 1 to n)
+    {
+        if(A[i] == x)
+            return i;
+    }
+    return -1;
+
+}

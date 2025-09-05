@@ -1,0 +1,38 @@
+Linear Search Algo
+
+Question: Given an Array A[] of n elements, search for the given element x in A[]
+
+Algo:
+
+Binary_Search_iter(A[], l, r, x)
+{
+
+while(l <= r)
+    {
+        mid = l + (r - l) / 2;
+        if(A[mid] == x)
+            return mid;
+        if(A[mid] > x)
+            r = mid - 1;
+        else
+            l = mid + 1;
+    }
+    return -1;
+}
+
+Binary_Search_rec(A[], l, r, x)
+{
+
+if( <= r)
+    {
+        mid = l + (r - l) / 2;
+        if(A[mid] == x)
+            return mid;
+        if(A[mid] > x)
+            return Binary_Search_rec(A[], l, mid-1, x);
+
+        else
+            return Binary_Search_rec(A[],mid+1, r, x);
+    }
+    return -1;
+}

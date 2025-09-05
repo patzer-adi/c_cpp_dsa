@@ -1,0 +1,15 @@
+at each step it tries to find the smallest element from the unsorted array
+
+Selection Sort(A,n)
+{
+for(i = 1 to n-1)
+pos = i;
+for(j = i+1 to n)
+    {
+    if(A[j] < A[pos])
+        pos = j; //find the minimum element position...
+    }
+    swap(A[i],A[pos]);
+
+
+}
