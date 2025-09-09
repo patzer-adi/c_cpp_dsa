@@ -1,0 +1,13 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore compiled C/C++ binaries
+*.out
+*.o
+*.exe
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+

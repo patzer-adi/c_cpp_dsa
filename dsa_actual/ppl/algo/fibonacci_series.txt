@@ -1,0 +1,36 @@
+
+
+Question: The goal is to find fibonacci number of a given integer
+
+Input: Integer N
+
+Output: Fibonacci of N (or F(N))
+
+Iterative algo:
+
+Fibvalue(N)
+{
+Fib[0] = 0;
+Fib[1] = 1;
+
+for( i = 2  to n)
+{
+Fib[i] = Fib[i-2] + Fib[i - 1];
+}
+
+return Fib[n];
+}
+
+
+Recurscie Algo:
+
+
+Fibvalue_rec(N)
+{
+if(N <= 1)
+    {
+    returb n;
+    }
+
+return Fibvalue_rec[n-1] + Fibvalue_rec[n-2]  ;
+}
