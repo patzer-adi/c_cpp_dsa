@@ -33,11 +33,11 @@ int fibo_rec(int n)
 
 int fibo_iter(int n)
 {
-
+    int fib[1000];
     if (n < 2)
         return n;
 
-    int fib[n + 1]={};
+    fib[n + 1];
     fib[0] = 0;
     fib[1] = 1;
     int i;
