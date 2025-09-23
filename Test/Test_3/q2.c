@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+///   made a mistake in intializig j loop
 void run()
 {
     int n, i = 1;
