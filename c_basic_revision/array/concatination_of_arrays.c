@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// this was done along with the help of abdulla sir
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
