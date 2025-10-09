@@ -50,7 +50,7 @@ void run()
     printf("Solution:");
     for(i = 1; i <= n; i++)
     {
-        printf("\n x = %d=%f\t",i,x[i]);
+        printf("\n x%d = %f\t",i,x[i]);
     }
     return;
 }
