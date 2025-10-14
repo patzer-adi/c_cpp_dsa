@@ -1,0 +1,6 @@
+Selected Items (weight, profit):
+9 55.00
+15 48.00
+16 46.22 (Fraction 0.89)
+
+Total Profit: 149.22
