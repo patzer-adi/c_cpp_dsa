@@ -1,0 +1,3 @@
+Selected Items (weight, profit):
+
+Total Profit: 0.00
