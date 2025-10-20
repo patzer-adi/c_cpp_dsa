@@ -1,3 +1,5 @@
+//Read two integers, and perform addition, substraction and division without using a
+//third variable
 #include <stdio.h>
 
 int main() {
