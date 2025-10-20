@@ -1,3 +1,5 @@
+// Write a program to rotate the array elements to the right by k positions.
+// Example: [1,2,3,4,5] → [5,1,2,3,4] for k=1.
 #include <stdio.h>
 
 int main() {
