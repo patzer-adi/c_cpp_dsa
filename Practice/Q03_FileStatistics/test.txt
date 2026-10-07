@@ -1,0 +1,2 @@
+I am a C programmer. My programs work great and they hardly
+have any logical errors. Pointer is my favourite data type.
